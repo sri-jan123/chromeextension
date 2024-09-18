@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "title displayer",
+    "version": "1.0",
+    "description": "Title displayer gets you the title of thewebpage you are at. All you need is just a single click.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon":"extensionicon.png"
+    },
+    "icons":{
+        "128":"extensionicon.png"
+    },
+
+    "permissions": ["activeTab"]
+  }
+  
